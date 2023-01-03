@@ -1,0 +1,29 @@
+package visual;
+
+import java.awt.*;
+
+public interface Constants {
+    int APPLICATION_WIDTH = 600;
+    int APPLICATION_HEIGHT = 635;
+
+    double POSITION_OF_LINE_HEIGHT = (double) APPLICATION_WIDTH / 3;
+
+    double POSITION_OF_BUTTONS_X = APPLICATION_WIDTH - 215;
+    double POSITION_OF_FIRST_BUTTONS_Y = APPLICATION_WIDTH - (80 + 30) * 3;
+    double POSITION_OF_SECOND_BUTTONS_Y = APPLICATION_WIDTH - (80 + 30) * 2;
+    double POSITION_OF_THIRD_BUTTONS_Y = APPLICATION_WIDTH - (80 + 30);
+
+    double POSITION_OF_COMPLEXITY_BUTTONS_Y = (int)(APPLICATION_WIDTH / 2 - 70 / 2);
+    double POSITION_OF_FIRST_COMPLEXITY_BUTTONS_X = (int)((APPLICATION_WIDTH - 150 * 3) / 4);
+    double POSITION_OF_SECOND_COMPLEXITY_BUTTONS_X = (int) (((APPLICATION_WIDTH - 150 * 3) / 4) + 150 + ((APPLICATION_WIDTH - 150 * 3) / 4));
+    double POSITION_OF_THIRD_COMPLEXITY_BUTTONS_X = (int)(APPLICATION_WIDTH - ((APPLICATION_WIDTH - 150 * 3) / 4) - 150);
+    double BUTTON_WIDTH = 200;
+    double BUTTON_HEIGHT = 80;
+    double COMPLEXITY_BUTTON_WIDTH = 150;
+    double COMPLEXITY_BUTTON_HEIGHT = 70;
+    Color anticipationButton = new Color(255,255,0);
+
+    Color inducedButton = new Color(0,128,0);
+    double POSITION_OF_LINE_WIDTH = (double) APPLICATION_WIDTH / 3;
+    int SIZE_OF_LINE = 1;
+}
